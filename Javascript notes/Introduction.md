@@ -1,17 +1,25 @@
 # Javascript Crash Course
 
 Original Author: huixiang01
+
 Contains a syntax reference for Javascript ES6!
+
 I don't know whether I could update regularly... so appreciate if you help out too!
+
 Doing it because there is no notes for javascript in OpenSUTD... so might as well take some initiative.
 
 The code format I'll be adapting is from methylDragon(I mean no point reformatting...)
+
 HINT HINT: TO THOSE WHO READ METHYLDRAGON NOTES ON PYTHON SHOULD THINK THIS IS EASY AF
+
 For those who are wants shorthan techniques: https://www.sitepoint.com/shorthand-javascript-techniques/
+
 If there is anything unclear or there is bugs(accidental typo included), put it up on issues!
+
 P.s. I spotted some in methylDragon's and he spelled methylDragon wrongly. What a shame! Haha
 
 I am going to do conversion among array/object/set soon!
+
 Classes coming up also!
 ------
 
@@ -984,7 +992,9 @@ console.log(new_list.join(' '))
 
 [go to top](#top)
 
-Use these when you don't know ahead of time when this loop is going to end. Note! The condition is checked right BEFORE each run through of the loop, NOT THROUGHOUT!
+Use these when you don't know ahead of time when this loop is going to end. 
+
+Note! The condition is checked right BEFORE each run through of the loop, NOT THROUGHOUT!
 
 ```javascript
 
@@ -1027,8 +1037,11 @@ while (do_check | <condition>) {
 [go to top](#top)
 
 String literals take amny forms:
+
 'string text'
+
 "string text"
+
 "中文 español Deutsch English देवनागरी العربية português বাংলা русский 日本語 norsk bokmål ਪੰਜਾਬੀ 한국어 தமிழ் עברית"
 
 Amazing, isn't it?
@@ -1126,6 +1139,7 @@ By far the most important concept for debugging purposes! Try to always use them
 Alternatively, if you know where a program might throw **exceptions** (i.e. errors), you can code in handlers for them if you know they can occur but it's either by design or because it might be user errors, etc. !
 
 Common types of error: EvalError, RangeError, ReferenceError, SyntaxError, TypeError, URIError.
+
 There is more... but beginners should not need them. ^_^. But you can just copy-passte from console.
 
 ### **Try-Catch-Finally**
