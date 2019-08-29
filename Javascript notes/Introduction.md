@@ -6,25 +6,25 @@ Contains a syntax reference for Javascript ES6!
 
 I don't know whether I could update regularly... so appreciate if you help out too!
 
-Doing it because there is no notes for javascript in OpenSUTD... so might as well take some initiative.
+Doing it because there are no notes for javascript in OpenSUTD... so might as well take some initiative.
 
 The code format I'll be adapting is from methylDragon(I mean no point reformatting...)
 
 HINT HINT: TO THOSE WHO READ METHYLDRAGON NOTES ON PYTHON SHOULD THINK THIS IS EASY AF
 
-For those who are wants shorthand techniques: https://www.sitepoint.com/shorthand-javascript-techniques/ 
+For those who want shorthand techniques: https://www.sitepoint.com/shorthand-javascript-techniques/ 
 
 If there is anything unclear or there is bugs(accidental typo included), put it up on issues!
 
-P.s. I spotted some (which I kinda did not take note where) in methylDragon's and he spelled methylDragon wrongly. What a shame! Haha
+P.s. I spotted some (which I did not take note where) in methylDragon's, and he spelt methylDragon wrongly. What a shame! Haha!
 
-I am going to do conversion among array/object/sets soon! 
+I am going to do the conversion among array/object/sets soon! 
 ------
 
 ## Table Of Contents <a name="top"></a>
 
 1. [Introduction](#1)  
-2. [Basic javascript 3 Syntax Reference](#2)    
+2. [Basic Javascript ES6 Syntax Reference](#2)    
    2.1   [Comments](#2.1)    
    2.2   [Importing Modules](#2.2)    
    2.3   [Console.log](#2.3)    
@@ -32,12 +32,12 @@ I am going to do conversion among array/object/sets soon!
    2.5   [Arithmetic](#2.5)    
    2.6   [More Arithmetic](#2.6)    
    2.7   [Arrays](#2.7)    
-   2.8   [Array Methods](#2.8) 
-   2.9   [Function](#2.9)
-   2.10  [Object-Oriented Javascript](#2.10)      
+   2.8   [Array Methods](#2.8) </br>
+   2.9   [Function](#2.9)</br>
+   2.10  [Object-Oriented Javascript](#2.10)   
    2.11  [Objects](#2.11)    
    2.12  [Object Methods](#2.12)  
-   2.13  [Class](#2.13)    
+   2.13  [Class](#2.13)
    2.14  [Sets](#2.14)    
    2.15  [Set Methods](#2.15)    
    2.16  [Operators](#2.16)       
@@ -56,16 +56,16 @@ JavaScript is the asynchronous high-level Programming Language for the Web
 - Asynchronous: some procedures will be faster than others even though the "others" starts first
 - High-level: V easy for humans to understand and compile. (so that you don't need to suffer languages like C++, but oh wells)
 
-JavaScript is used to update and change both HTML and CSS, if you are interested in front-end development
+JavaScript is used to update and change both HTML and CSS if you are interested in front-end development
 
-And for the back-end, JavaScript can calculate, manipulate and validate data, most commonly people would use Node.js or Django as a server
+And for the back-end, JavaScript can calculate, manipulate and validate data, most commonly people would use Node.js or Django as a server.
 
 Here's the Javascript style guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
 *** NOTE THAT JAVASCRIPT != JAVA. IT IS A DIFFERENT THING
 
 
-## 2. Basic javascript 3 Syntax Reference <a name="2"></a>
+## 2. Basic Javascript Syntax Reference <a name="2"></a>
 
 ### 2.1 Comments <a name="2.1"></a>
 
@@ -174,7 +174,7 @@ console.log(my_dict.join(' '))
 // There is no sep=' ' or any other parameters in javascript. This is a good alternative.
 ```
 
-More consoles...(Only here to make things nice)
+More consoles...(Only here to make things friendly)
 ```javascript
 
 var SUTD = ["EPD", "ASD", "ESD", "ISTD", "the-new-AI-degree-which-not-yet-to-be named"]
@@ -217,7 +217,7 @@ console.timeEnd();
 console.assert(1==2 , "1 is not 2. Dumbo!")
 // Output: Assertion failed: 1 is not 2. Dumbo!
 
-// Console will be messy af. But you can clear it!
+// Console will be messy AF. But you can clear it!
 console.clear()
 ```
 
@@ -247,7 +247,7 @@ console.log('int: %d, floating-point: %f', 1, 1.5)
 const school = "SUTD"
 const engineering = "physic, mathematics and many more!"
 console.log(`${school} is a place to study ${engineering}`)
-// Output: SUTD is a place to study physics, mathamatics and many more!
+// Output: SUTD is a place to study physics, mathematics and many more!
 ```
 
 ### 2.4 Variables <a name="2.4"></a>
@@ -258,15 +258,15 @@ console.log(`${school} is a place to study ${engineering}`)
 
 - They also cannot be keywords used in javascript.
 - Names are CASE SENSITIVE
-- The javascriptic way of naming variables, is lowercase, separated by underscores. Or whatever the code was using. Keep it consistent and neat!
+- The javascript-ic way of naming variables, is lowercase, separated by underscores. Or whatever the code was using. Keep it consistent and neat!
 
 Declaring variables
 
-- If you don't declare variable, it will return you "undefined"... which is pretty annoying.
+- If you don't declare a variable, it will return you "undefined"... which is pretty annoying.
 
-Three ways of declaring variable: let, var and const.
+Three ways of declaring a variable: let, var and const.
 
-Really recommend to use var all the way. ^_^
+Really recommend using var all the way. ^_^
 
 ```javascript
 //let
@@ -333,7 +333,7 @@ typeof(my_number) // Return "number"
 
 ```
 
-> Ok. I said variables are like containers for data, but that only helps beginners visualise it. In javascript it's a little different. The variable names you define refer to objects that store values. But when you change the value, what happens is NOT that the value stored in the referred object changes, but rather, another object is created and the variable names becomes a reference to that new object.
+> Ok. I said variables are like containers for data, but that only helps beginners visualise it. In javascript it's a little different. The variable names you define refer to objects that store values. But when you change the value, what happens is NOT that the value stored in the referred object changes, but rather, another object is created, and the variable names become a reference to that new object.
 >
 > The names are essentially rebound! (I'm guessing this might be why the performance is so meh)
 >
@@ -499,7 +499,7 @@ new Array(10).fill().map((x,i)=>i);
 > // Changing b changed a because the array referred to is the SAME OBJECT!
 > ```
 
-### 2.8 Array Methods<a name="2.8"></a>
+### 2.8 Array Methods <a name="2.8"></a>
 
 [Go to Top](#top)
 
@@ -624,7 +624,7 @@ console.log(new Set([1,1,1,1,1,2]))
 
 ```
 
-### 2.9 Functions <a name="2.9"></a> 
+### 2.9 Functions <a name="2.9"></a>
 [Go to Top](#top)
 
 Function: 
@@ -639,7 +639,7 @@ There are three common ways a function is defined.
 ```javascript
 //First
 function square(number) { 
-  // You can put multiple arguments and you can name the function as shown in yellow
+  // You can put multiple arguments, and you can name the function as shown in yellow
   return number * number; // do something here
 }
 
@@ -668,7 +668,7 @@ square(number) // You just want to call it and it does everything for you.
 
 Multi-nested Function
 
-Of course, you can do a function within a function but few things to take note
+Of course, you can do a function within a function but few things to take note.
 
 ```javascript
 
@@ -686,7 +686,7 @@ outside()(10); // returns 20 instead of 10
 
 ```
 
-Default parameters : If there is no arguments, but you want to run that function
+Default parameters: If there are no arguments, but you want to run that function
 
 ```javascript
 function multiply(a, b = 1) { //default b = 1
@@ -744,11 +744,11 @@ function newProf(name) {
 ```
 Note that instead of writing obj.name, we can write this.name
 
-### 2.14 Objects <a name="2.14"></a>
+### 2.11 Objects <a name="2.11"></a>
 
 [Go to Top](#top)
 
-A object is made up of values with a **UNIQUE** key for each value! It's basically a keyed array.
+An object is made up of values with a **UNIQUE** key for each value! It's basically a keyed array.
 
 They're also called maps (don't be confused with map() though!)
 
@@ -760,7 +760,7 @@ people_objects = {
     "DaYang" : "Lecturer",
     "Paolo": "The Opinionated",
     "WeiPin" : "The National Treasure",
-    "Chirstine" : "Annoying Professor"
+    "Christine": "Annoying Professor"
     }
 // The things to the left of the colon are the keys, and the ones on the right are the values
 // If you wanna find out why these values for the last three, ask your seniors. ^_^
@@ -793,7 +793,7 @@ for (i = 0; i < name_array.length; i++) { //this is a loop. For more info, refer
 
 ```
 
-### 2.15 Object Methods<a name="2.15"></a>
+### 2.12 Object Methods<a name="2.12"></a>
 [Go to Top](#top)
 
 ```javascript
@@ -891,9 +891,9 @@ people_objects.call_tom() // Output: Ah! You come! I call the guy who sits at th
 
 What are classes? 
 
- - Objects of the same kind. In other words, a class is a blueprint, template, or prototype that defines and describes the static attributes and dynamic behaviors common to all objects of the same kind.
+ - Objects of the same kind. In other words, a class is a blueprint, template, or prototype that defines and describes the static attributes and dynamic behaviours common to all objects of the same kind.
 
-Okay I guess you don't understand what I am talking. Let me show you an example first.
+Okay, I guess you don't understand what I am talking. Let me show you an example first.
 
 ```javascript
 
@@ -911,11 +911,11 @@ class Faculty {
     }
 }
 
-// Creating a new class from the parent aka. inheritance
+// Creating a new class from the parent, aka. inheritance
 class Lecturer extends Faculty {
     constructor(name, level, action, greet) {
-        // Chain constructor with super so that you don't need rewrite everything again
-        // You can just take out some of the properties( no need to be all)
+        // Chain constructor with super so that you don't need to rewrite everything again
+        // You can take out some of the properties( no need to be all)
         super(name, level);
 
         // Add a new property
@@ -948,7 +948,7 @@ var numbers = [4, 4, 5, 6]
 var more_unique_numbers = new Set(numbers)
 
 // Empty set
-// You have to do it this way since {} will initialise a objects!
+// You have to do it this way since {} will initialise an object!
 
 // Iterate through a set using loops! More info on loops @ 2.14!
 for (i = 0; i < unique_numbers.length; i++) {
@@ -973,7 +973,7 @@ some_set = new Set(new Array(5).keys())
 
 [Go to Top](#top)
 
-It's probably best to treat sets as completely distinct from arrays and Objects
+It's probably best to treat sets as entirely distinct from arrays and Objects
 
 Set operations work ala math as well!
 
@@ -1194,7 +1194,7 @@ for (element of my_array) {
     console.log(element) 
 }
 
-//If you want to skip a certain value
+//If you want to skip a specific value
 for (element of my_array) {
     if (element === 6) {
         continue
@@ -1227,7 +1227,7 @@ console.log(new_array.join(' '))
 
 Use these when you don't know ahead of time when this loop is going to end. Note! 
 
-The condition is checked right BEFORE each run through of the loop, NOT THROUGHOUT!
+The condition is checked right BEFORE each run-through of the loop, NOT THROUGHOUT!
 
 ```javascript
 
@@ -1239,7 +1239,7 @@ while(random_num != 15) { // This while loop will stop once random_num becomes 1
 }
 ```
 
-It'll console.log until the condition is no longer fulfilled! So in this case we'll console.log random numbers until random_num assumes the value 15.
+It'll console.log until the condition is no longer fulfilled! So, in this case, we'll console.log random numbers until random_num assumes the value 15.
 
 Here's another example!
 
@@ -1269,7 +1269,7 @@ while (do_check | <condition>) {
 ### 2.20 Strings <a name="2.20"></a>
 [Go to Top](#top)
 
-String literals take amny forms:
+String literals take many forms:
 
 > 'string text'
 > "string text"
@@ -1304,7 +1304,7 @@ console.log("%s %s %s" , "Hi!", "Welcome to", SUTD)
 const school = "SUTD"
 const engineering = "physic, mathematics and many more!"
 console.log(`${school} is a place to study ${engineering}`)
-// Output: SUTD is a place to study physics, mathamatics and many more!
+// Output: SUTD is a place to study physics, mathematics and many more!
 
 // Yeap! You have seen this before in the earlier part! Just a Refresher!
 
@@ -1363,12 +1363,12 @@ num.join(" ")// Return '1|2|3|4|5'
 
 [Go to Top](#top)
 
-By far the most important concept for debugging purposes! Try to always use them!
+By far, the most crucial concept for debugging purposes! Try always to use them!
 
-Alternatively, if you know where a program might throw **exceptions** (i.e. errors), you can code in handlers for them if you know they can occur but it's either by design or because it might be user errors, etc. !
+Alternatively, if you know where a program might throw **exceptions** (i.e. errors), you can code in handlers for them if you know they can occur, but it's either by design or because it might be user errors, etc. !
 
 Common types of error: EvalError, RangeError, ReferenceError, SyntaxError, TypeError, URIError.
-There is more... but beginners should not need them. ^_^. But you can just copy-passte from console.
+There is more... but beginners should not need them.  ^_^. But you can copy-paste from the console.
 
 ### **Try-Catch-Finally**
 
@@ -1382,7 +1382,7 @@ try {
 } catch (error_two) {
     console.log(err) // console.log the error ONLY if <error_two> is thrown
 } finally {
-    DoSomething() // Don't put catch unless you are very certain that it is the only error... or else...
+    DoSomething() // Don't put catch unless you are very sure that it is the only error... or else...
 }
 }
 ```
@@ -1407,7 +1407,7 @@ try {
 #### **With**
 
 ```javascript
-// This isn't exactly exception handling, and I mention it again in file I/O
+// This isn't exactly exception handling, and I mention it again in the file I/O
 // But... This is still useful
 
 with document{
@@ -1416,7 +1416,7 @@ with document{
 }
     
 // Because the file was opened, an object was created
-// With ensures that the file will be closed and cleaned from memory when appropriate
+// With ensures that the file will be closed and cleared from memory when appropriate
 ```
 
 
