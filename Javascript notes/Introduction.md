@@ -16,8 +16,6 @@ For those who want shorthand techniques: https://www.sitepoint.com/shorthand-jav
 
 If there is anything unclear or there is bugs(accidental typo included), put it up on issues!
 
-P.s. I spotted some (which I did not take note where) in methylDragon's, and he spelt methylDragon wrongly. What a shame! Haha!
-
 I am going to do the conversion among array/object/sets soon! 
 ------
 
