@@ -16,8 +16,7 @@ For those who want shorthand techniques: https://www.sitepoint.com/shorthand-jav
 
 If there is anything unclear or there is bugs(accidental typo included), put it up on issues!
 
-I am going to do the conversion among array/object/sets soon! 
-------
+
 
 ## Table Of Contents <a name="top"></a>
 
