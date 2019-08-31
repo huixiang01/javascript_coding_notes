@@ -1,4 +1,4 @@
-# javascript_coding_notes
-Coding notes for javascript ^_^
+# ReactJs Coding Notes
+Coding notes for ReactJs^_^
 
-Written for OpenSUTD since there is no one writen that.
+Written for OpenSUTD since there is no one has written that.
