@@ -411,7 +411,7 @@ Arrays store multiple values of the same datatype. They're like 'boxes in memory
 
 They are also ordered! Which means you can refer to elements inside them by index! (The index starts at 0)
 
-![alt text][meme]
+![alt text][https://github.com/huixiang01/javascript_coding_notes/blob/master/Javascript%20notes/Array%20starts%20from%20one.JPG]
 
 (They're called List in some other programming languages. FYI.)
 

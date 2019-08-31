@@ -16,7 +16,7 @@ If you want to have a guided version, look it up on: https://www.taniarascia.com
 
 > React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
 >
-> Used for Web development only!!! Don't say "ReactJs is for database/framework hor!" I get that a lot...
+> Used for Web development only!!! Don't say "ReactJs is for database management hor!" I get that a lot...
 >
 > It lets you compose complex User Interface(UIs) from small and isolated pieces of code called “components”.
 

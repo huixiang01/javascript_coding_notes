@@ -110,7 +110,7 @@ Strongly Recommended:
 
 ---
 
-![1_8vfMJjmH-Z3uxEP_RGKTBg](C:\Users\tongh\Desktop\javascript_coding_notes\ReactJs Notes\1_8vfMJjmH-Z3uxEP_RGKTBg.png)
+![1_8vfMJjmH-Z3uxEP_RGKTBg](https://github.com/huixiang01/javascript_coding_notes/blob/master/ReactJs%20Notes/1.%20Intro%20to%20ReactJs/1_8vfMJjmH-Z3uxEP_RGKTBg.png?raw=true))
 
 You can see the front-end interaction with ReactJs. But no worries! We would talk about the middle part, which is ReactJs.
 
@@ -316,13 +316,16 @@ function calculateWinner(squares) {
 
 This should be a display the end-product!
 
-![StartingTTT](C:\Users\tongh\Desktop\javascript_coding_notes\ReactJs Notes\StartingTTT.JPG)
-
-![In-processTTT](C:\Users\tongh\Desktop\javascript_coding_notes\ReactJs Notes\In-processTTT.JPG)
-
-![EndingTTT](C:\Users\tongh\Desktop\javascript_coding_notes\ReactJs Notes\EndingTTT.JPG)
+```
 
 
 
 
+![EndingTTT](https://github.com/huixiang01/javascript_coding_notes/blob/master/ReactJs%20Notes/1.%20Intro%20to%20ReactJs/EndingTTT.JPG?raw=true)
+```
 
+![StartingTTT](https://github.com/huixiang01/javascript_coding_notes/blob/master/ReactJs%20Notes/1.%20Intro%20to%20ReactJs/StartingTTT.JPG?raw=true)
+
+![In-processTTT](https://github.com/huixiang01/javascript_coding_notes/blob/master/ReactJs%20Notes/1.%20Intro%20to%20ReactJs/EndingTTT.JPG?raw=true)
+
+![EndingTTT](https://github.com/huixiang01/javascript_coding_notes/blob/master/ReactJs%20Notes/1.%20Intro%20to%20ReactJs/EndingTTT.JPG?raw=true)
